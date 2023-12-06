@@ -36,12 +36,17 @@ and the min element.*/
 // var sNum = Number (window.prompt("enter second number"))
 // var tNum = Number (window.prompt("enter third number"))
 
-// if (fNum > sNum && fNum > tNum) {console.log("Max :"+ fNum)}
-// else if (sNum > tNum && sNum > fNum) {console.log("Max :"+ sNum)}
-// else if (tNum > fNum && tNum > sNum) {console.log("Max :"+ tNum)}
-// if (fNum < sNum && fNum < tNum) {console.log("Min :"+ fNum)}
-// else if (sNum < tNum && sNum < fNum) {console.log("Min :"+ sNum)}
-// else if (tNum < fNum && tNum < sNum) {console.log("Min :"+ tNum)}
+
+// var fNum = Number(window.prompt("enter first number"))
+// var sNum = Number (window.prompt("enter second number"))
+// var tNum = Number (window.prompt("enter third number"))
+
+// if (fNum >= sNum && fNum >= tNum) {console.log("Max :"+ fNum)}
+// else if (sNum >= tNum && sNum >= fNum) {console.log("Max :"+ sNum)}
+// else if (tNum >= fNum && tNum >= sNum) {console.log("Max :"+ tNum)}
+// if (fNum <= sNum && fNum <= tNum) {console.log("Min :"+ fNum)}
+// else if (sNum <= tNum && sNum <= fNum) {console.log("Min :"+ sNum)}
+// else if (tNum <= fNum && tNum <= sNum) {console.log("Min :"+ tNum)}
 
 /*6- Write a program that allows the user to insert integer number then
 check If a number is oven or odd*/
@@ -83,7 +88,7 @@ between 1 to this number
  */
 
 // var int = Number (window.prompt("Enter a number"))
-// for( i=2 ; i<= int ; i+=2) {
+// for( i=0 ; i<= int ; i+=2) {
 //     console.log(i)
 // }
 
